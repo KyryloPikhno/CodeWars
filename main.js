@@ -18,3 +18,15 @@
 // };
 //
 // console.log(highAndLow('23 -20 6 3'));
+
+// const getSum = (a, b) => {
+//     return (Math.abs(a - b) + 1) * (a + b) / 2;
+// };
+//
+// console.log(getSum(576, 251));
+
+// const findAverage = array => array.length === 0 ? 0 : array.reduce((acc, n) => acc + n, 0) /array.length;
+
+// const digitize = n => n.toString().split('').reverse().map(n => Number(n));
+//
+// console.log(digitize(0));
