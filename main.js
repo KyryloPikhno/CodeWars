@@ -30,3 +30,62 @@
 // const digitize = n => n.toString().split('').reverse().map(n => Number(n));
 //
 // console.log(digitize(0));
+
+// const removeChar = (str) => str.split('').slice(1, str.length - 1).join('');
+//
+// console.log(removeChar('test'));
+
+
+// const updateLight = current => {
+//     if (current === 'green') {
+//         return 'yellow';
+//     } else if (current === 'yellow') {
+//         return 'red';
+//     } else if (current === 'red') {
+//         return 'green';
+//     }
+// };
+//
+// console.log(updateLight('yellow'));
+
+
+// const invert = array => array.map(number => number > 0 ? -number : (number * -1));
+//
+// console.log(invert([1, 2, 3, 4, -6]));
+
+
+// const DNAtoRNA = dna => dna.split('').map(l => l === 'T' ? l = 'U' : l).join('');
+//
+// console.log(DNAtoRNA('GCTT'));
+
+
+const removeEveryOther = arr => arr.filter((item ,i)=>!(i%2))
+
+console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
