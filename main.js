@@ -59,10 +59,33 @@
 // console.log(DNAtoRNA('GCTT'));
 
 
-const removeEveryOther = arr => arr.filter((item ,i)=>!(i%2))
+// const removeEveryOther = arr => arr.filter((item ,i)=>!(i%2))
+//
+// console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
 
-console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
 
+// const reverseSeq = n => {
+//     const arr = [];
+//     for (let i = n; n > arr.length; i--) {
+//          arr.push(i);
+//     }
+//
+//     return arr;
+// };
+//
+// console.log(reverseSeq(10));
+
+
+// const array = n => {
+//     const arr = [];
+//     for (let i = 1; i <= n; i++) {
+//         arr.push(i);
+//     }
+//
+//     return arr;
+// };
+//
+// console.log(array(10));
 
 
 
