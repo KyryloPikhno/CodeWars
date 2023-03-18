@@ -134,8 +134,24 @@
 //
 // console.log(cockroachSpeed(1.08));
 
+// const removeSmallest = (numbers) => {
+//     if(numbers.length === 0) return [];
+//     let newArr = numbers;
+//     const min = newArr.reduce((acc, item) => acc < item ? acc : item);
+//     const index = newArr.indexOf(min);
+//     numbers.splice(index, 1);
+//     return newArr;
+// };
+//
+// console.log(removeSmallest([1,3,3]));
 
-
+// const removeSmallest = (numbers) => {
+//     const copy = numbers.slice(0);
+//     copy.splice(numbers.indexOf(Math.min(...numbers)), 1);
+//     return copy;
+// };
+//
+// console.log(removeSmallest([1,3,3]));
 
 
 
