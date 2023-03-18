@@ -87,6 +87,58 @@
 //
 // console.log(array(10));
 
+// const solution = (str, end) => {
+//     if (end === '') {
+//         return false;
+//     }
+//
+//     return str.slice(-end.length) === end;
+// };
+//
+//
+//
+// console.log(solution('abs',''));
+
+// const love = (flower1, flower2) => (flower2 + flower1) % 2 !== 0;
+//
+// console.log(love(201, 200));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
