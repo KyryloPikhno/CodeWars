@@ -104,6 +104,15 @@
 // console.log(love(201, 200));
 
 
+// function paperwork(n, m) {
+//     if (m < 0 || n < 0) {
+//         return 0
+//     }
+//     return n * m
+// }
+
+
+// const rowSumOddNumbers = n => n * n * n;
 
 
 
