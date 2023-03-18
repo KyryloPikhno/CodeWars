@@ -114,14 +114,25 @@
 
 // const rowSumOddNumbers = n => n * n * n;
 
+// const makeUpperCase = str => str.toUpperCase();
+
+// const minMax = arr => {
+//     const min = arr.reduce((acc, number) => acc < number ? acc : number);
+//     const max = arr.reduce((acc, number) => acc > number ? acc : number);
+//
+//     return [min, max];
+// };
+//
+// console.log(minMax([2020202020, 20]));
+
+// function minMax(arr){
+//     return [Math.min(...arr), Math.max(...arr)];
+// }
 
 
-
-
-
-
-
-
+// const cockroachSpeed = s => Math.floor(s / 0.036);
+//
+// console.log(cockroachSpeed(1.08));
 
 
 
